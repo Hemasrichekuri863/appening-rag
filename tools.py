@@ -5,7 +5,7 @@ from langchain_pinecone import PineconeVectorStore
 from langchain.tools import tool
 
 load_dotenv()
-INDEX_NAME = os.getenv("PINECONE_INDEX", "appening-rag")
+INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "appening-rag")
 
 @tool
 def retrieve_context(query: str) -> str:
