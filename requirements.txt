@@ -15,3 +15,4 @@ wheel
 langchain-groq
 groq
 langchain-huggingface
+sentence-transformers
