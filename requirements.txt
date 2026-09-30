@@ -14,3 +14,4 @@ setuptools==68.0.0
 wheel
 langchain-groq
 groq
+langchain-huggingface
