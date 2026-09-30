@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from dotenv import load_dotenv
 load_dotenv()
-from src.agent import get_agent
+from agent import get_agent
 app = FastAPI(title="Appening AI RAG")
 agent = get_agent()
 class Query(BaseModel):
