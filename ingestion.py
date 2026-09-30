@@ -8,8 +8,8 @@ from pinecone import Pinecone, ServerlessSpec
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = os.getenv("PINECONE_INDEX", "appening-rag")
-PDF_PATH = "data/Ebook-Agentic-AI.pdf"
+INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "appening-rag")
+PDF_PATH = "Ebook-Agentic-AI.pdf"
 
 def main():
     print(f"Loading PDF from {PDF_PATH}...")
